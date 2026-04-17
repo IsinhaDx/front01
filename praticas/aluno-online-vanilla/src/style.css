@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Aluno - Aluno Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/graduation-cap.png" alt="Ícone de chapéu de graduação">
+                <span>Aluno Online</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Notas</a></li>
+                    <li><a href="#">Faltas</a></li>
+                    <li><a href="#">Boletos</a></li>
+                    <li><a href="#">Requerimentos</a></li>
+                    <li><a href="#">Sair</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            
+            <header class="topbar">
+                <div class="welcome-text">
+                    <h1>Olá, Aluno!</h1>
+                    <p>Bem-vindo ao portal do aluno</p>
+                </div>
+                <div class="user-avatar">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/user-male-circle.png" alt="Avatar do usuário">
+                </div>
+            </header>
+
+            <section class="dashboard-grid">
+                
+                <article class="card">
+                    <header class="card-header">Mural de Avisos</header>
+                    <div class="card-body">
+                        <p>Inscrição para o projeto de extensão</p>
+                        <p>Eleição para representante de turma</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <header class="card-header">Calendário Acadêmico</header>
+                    <div class="card-body">
+                        <p><strong>23/02</strong> - Início do período letivo 2026-1</p>
+                        <p><strong>25/04</strong> - Prazo final para aplicação da P1</p>
+                        <p><strong>23/06</strong> - Prazo final para aplicação da P2</p>
+                        <p><strong>04/07</strong> - Fim do período letivo 2026-1</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <header class="card-header">Minhas Disciplinas</header>
+                    <div class="card-body">
+                        <p>BI e Data Warehousing</p>
+                        <p>Construção de Frontend</p>
+                        <p>Administração de Sistemas e Redes</p>
+                    </div>
+                </article>
+
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
